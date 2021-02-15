@@ -1,0 +1,156 @@
+
+body
+{
+  font-family: "Montserrat";
+}
+h1
+{
+  font-family: "Montserrat";
+  color: white; font-weight: bold;
+font-size: 3.5rem;
+line-height: 1.5;
+}
+h2
+{font-family: "Montserrat";
+color: white;font-size: 3rem;
+line-height: 1.5;
+}
+
+.title {
+  background-color :#ff4c68;  color: white;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 4rem;
+}
+.navbar-brand{
+  color:white;
+  font-size: 2rem ;font-family: "Ubuntu";
+}
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+/* Download buttons */
+
+  .download-buttons{
+    margin: 5% 3% 5% 0;
+  }
+
+  /* title image */
+.title-img{
+  width: 60%;
+position: absolute; right: 30%;
+}
+.rotate{transform: rotate(25deg);}
+
+/* Features */
+.features{
+  padding: 7% 15%;background-color: #fff;position: relative;z-index: 1;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.feat-h3{
+  font-weight: bold;
+
+  font-size: 1.5rem;
+}
+.fea-p{
+  color: #8f8f8f;
+}
+
+.box{text-align: center; padding: 5%;
+
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonials */
+.testimonials{
+
+  text-align: center;
+  color: #fff;
+  background-color: #ef8172;
+
+
+}
+.dog-img{
+  border-radius: 100%;
+  width: 15%; margin:20px;
+}
+.lady-image{
+  border-radius: 100%;
+  width: 15%; margin:20px;
+}
+.press{
+  background-color: #ef8172;text-align: center;padding-bottom: 3%;
+}
+.pressicon{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing section */
+
+.prixing{
+  padding: 100px;text-align: center;
+}
+.price{
+  color: black;font-weight: bold;
+}
+.pricing-column{
+  padding: 3% 2%;
+
+}
+.pricing-para{
+  color: #8f8f8f;
+}
+
+/* Media query for making website more responsive for every device */
+@media(max-width:1028px)
+{
+  .title-img{
+    position:static;
+
+  }
+  .title{
+    text-align: center;
+  }
+  .rotate{
+    transform: rotate(0);
+  }
+}
+
+/* last page */
+.CTA{
+  background-color: #ff4c68;   text-align: center;
+    color: #fff; padding: 100px;  font-family: "Montserrat";
+}
+.h3-cta{
+  font-size: 3rem; font-weight: bold;
+
+}
+/* footer */
+.foter{
+  background-color: #fff; padding:7% 15%;text-align: center;
+}
+.footer-para{color: #8f8f8f;
+
+}
+.icon-footer{
+    margin: 10px 10px 10px; text-align: center;
+}
